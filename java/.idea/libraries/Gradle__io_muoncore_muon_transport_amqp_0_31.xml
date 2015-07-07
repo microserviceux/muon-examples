@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.muoncore:muon-transport-amqp:0.31">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.muoncore/muon-transport-amqp/0.31/16e678d61198435f5490aeda0bc7f8e8edb95a87/muon-transport-amqp-0.31.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.muoncore/muon-transport-amqp/0.31/72f7c2c7299ac12645397827973e1af3ff97a069/muon-transport-amqp-0.31-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.muoncore:muon-spring:0.31">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.muoncore/muon-spring/0.31/d4b85a861a2a9323a6e0b34ef713fb4fe0e97daa/muon-spring-0.31.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.muoncore/muon-spring/0.31/58630ba259867a1e3da51c21fc0a29cfec2639aa/muon-spring-0.31-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

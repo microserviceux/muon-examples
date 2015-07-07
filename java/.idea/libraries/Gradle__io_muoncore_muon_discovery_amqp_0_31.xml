@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.muoncore:muon-discovery-amqp:0.31">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.muoncore/muon-discovery-amqp/0.31/f97e1f89ed925006dad02da960f66d5d0a539f8f/muon-discovery-amqp-0.31.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.muoncore/muon-discovery-amqp/0.31/86762245b14fd04543ed7bf317f3a5ccf5974ceb/muon-discovery-amqp-0.31-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
