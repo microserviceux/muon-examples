@@ -20,7 +20,7 @@ import java.util.Map;
 public class MuonQueryExample {
 
 
-    private static String amqpUrl = "amqp://muon:techfutu13@msg.cistechfutures.net:5672";
+    private static String amqpUrl = "amqp://muon:microservices@msg.cistechfutures.net:5672";
 
     public static void main(String[] args) throws Exception {
         Muon server = muonServer();
