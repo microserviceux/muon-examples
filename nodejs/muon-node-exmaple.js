@@ -1,4 +1,4 @@
-var muonCore = require("./index.js");
+var muonCore = require("muon-core");
 
 var amqp = muonCore.amqpTransport("amqp://localhost:5672");
 var muon = muonCore.muon('tck', amqp.getDiscovery(), [
