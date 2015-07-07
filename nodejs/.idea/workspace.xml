@@ -21,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="muon-node-exmaple.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/muon-node-exmaple.js">
+      <file leaf-file-name="muon-node-client.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/muon-node-client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15320334">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2506964">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="muon-node-server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/muon-node-server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -48,6 +58,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/muon-node-exmaple.js" />
+        <option value="$PROJECT_DIR$/muon-node-example-server.js" />
+        <option value="$PROJECT_DIR$/muon-node-server.js" />
+        <option value="$PROJECT_DIR$/muon-node-client.js" />
       </list>
     </option>
   </component>
@@ -55,8 +68,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1134" />
-    <option name="y" value="44" />
+    <option name="x" value="-8" />
+    <option name="y" value="36" />
     <option name="width" value="1400" />
     <option name="height" value="1174" />
   </component>
@@ -232,7 +245,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1134" y="44" width="1400" height="1174" extended-state="0" />
+    <frame x="-8" y="36" width="1400" height="1174" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -267,10 +280,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/muon-node-exmaple.js">
+    <entry file="file://$PROJECT_DIR$/muon-node-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15320334">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/muon-node-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2506964">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
           <folding />
         </state>
       </provider>

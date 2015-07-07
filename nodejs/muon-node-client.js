@@ -1,15 +1,23 @@
 var muonCore = require("muon-core");
+var sleep = require('sleep');
 
 var amqp = muonCore.amqpTransport("amqp://muon:microservices@msg.cistechfutures.net:5672");
-var muon = muonCore.muon('tck', amqp.getDiscovery(), [
+
+
+
+
+var muonClient = muonCore.muon('node-client', amqp.getDiscovery(), [
     ["my-tag", "tck-service", "node-service"]
 ]);
-muon.addTransport(amqp);
+
+
+muonClient.addTransport(amqp);
 
 
 setTimeout(function() {
 
-    muon.resource.query("muon://echo/echo", function(event, payload) {
+    muonClient.resource.query("muon://node-server/query", function(event, payload) {
+            console.log("event received...");
             console.log(payload);
         });
     
