@@ -9,7 +9,7 @@
     "antifragile"
   ],
   "dependencies": {
-    "muon-core": "*"
+    "muon-core": "36.0.0-0"
   },
   "devDependencies": {
     "assert": "*"
