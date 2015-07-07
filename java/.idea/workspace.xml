@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a287a99-3217-4748-b0de-10505faa6321" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MuonEchoExample.java" afterPath="$PROJECT_DIR$/src/main/java/MuonEchoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MuonQueryExample.java" afterPath="$PROJECT_DIR$/src/main/java/MuonQueryExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../nodejs/muon-node-exmaple.js" afterPath="$PROJECT_DIR$/../nodejs/muon-node-exmaple.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="2a287a99-3217-4748-b0de-10505faa6321" name="Default" comment="" />
     <ignored path="muon-java-exmaples.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -364,8 +359,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="580" />
-    <option name="y" value="104" />
+    <option name="x" value="482" />
+    <option name="y" value="185" />
     <option name="width" value="1400" />
     <option name="height" value="1174" />
   </component>
@@ -623,7 +618,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="580" y="104" width="1400" height="1174" extended-state="0" />
+    <frame x="482" y="185" width="1400" height="1174" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />

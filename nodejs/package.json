@@ -1,0 +1,20 @@
+{
+  "name": "muon-exmaples",
+  "description": "node.js muon example",
+  "version": "0.1.0",
+  "author": "Simplicity Itself Ltd",
+  "keywords": [
+    "muon",
+    "microservices",
+    "antifragile"
+  ],
+  "dependencies": {
+    "muon-core": "*"
+  },
+  "devDependencies": {
+    "assert": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
