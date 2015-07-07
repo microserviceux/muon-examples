@@ -6,26 +6,25 @@ import io.muoncore.future.MuonFuture;
 import io.muoncore.future.MuonFutures;
 import io.muoncore.transport.resource.MuonResourceEvent;
 
-import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
 
 
 /**
  *
- * Simple echo client server example.
+ * Simple echo muonClient muonServer example.
  *
  *
  * Created by gawain on 06/07/2015.
  */
-public class MuonEchoExample {
+public class MuonQueryExample {
 
 
     private static String amqpUrl = "amqp://muon:techfutu13@msg.cistechfutures.net:5672";
 
     public static void main(String[] args) throws Exception {
-        Muon server = echoServer();
-        Muon client = echoClient();
+        Muon server = muonServer();
+        Muon client = muonClient();
 
         server.shutdown();
         client.shutdown();
@@ -34,7 +33,7 @@ public class MuonEchoExample {
 
     }
 
-    private static Muon echoServer() throws Exception {
+    private static Muon muonServer() throws Exception {
 
         final Muon muon = new Muon( new AmqpDiscovery(amqpUrl));
 
@@ -49,10 +48,8 @@ public class MuonEchoExample {
             public MuonFuture onQuery(MuonResourceEvent<Map> queryEvent) {
                 Map obj = new HashMap(); // queryEvent.getDecodedContent();
 
-                Map payload = queryEvent.getDecodedContent();
-
-                obj.put("client", payload.get("client"));
-                obj.put("echo-message", payload.get("message"));
+                obj.put("method", "GET");
+                obj.put("echo", "no message");
 
                 return MuonFutures.immediately(obj);
             }
@@ -63,7 +60,7 @@ public class MuonEchoExample {
     }
 
 
-    private static Muon echoClient() throws Exception {
+    private static Muon muonClient() throws Exception {
 
         final Muon muonclient = new Muon(  new AmqpDiscovery(amqpUrl));
         muonclient.setServiceIdentifer("echo");
@@ -73,15 +70,7 @@ public class MuonEchoExample {
 
         Thread.sleep(2000);
 
-        Map map = new HashMap<>();
-        map.put("message", "Hellow, Mellow");
-        MuonResourceEvent<Map> payload = new MuonResourceEvent<Map>(new URI("/echo"));
-        payload.addHeader("client", "muon-java-echo-exmaple");
-        payload.setContentType("application/json");
-        payload.setDecodedContent(map);
-        MuonFuture<MuonClient.MuonResult<Map>> muonResultMuonFuture = muonclient.put("muon://echo/echo", payload, Map.class);
-
-        //MuonFuture<MuonClient.MuonResult<Map>> muonResultMuonFuture = muonclient.get("muon://echo/echo", Map.class);
+        MuonFuture<MuonClient.MuonResult<Map>> muonResultMuonFuture = muonclient.get("muon://echo/echo", Map.class);
 
         MuonClient.MuonResult<Map> mapMuonResult = muonResultMuonFuture.get();
 
