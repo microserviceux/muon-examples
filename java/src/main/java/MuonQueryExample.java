@@ -26,8 +26,8 @@ public class MuonQueryExample {
         Muon server = muonServer();
         Muon client = muonClient();
 
-        server.shutdown();
-        client.shutdown();
+        //server.shutdown();
+        //client.shutdown();
 
 
 

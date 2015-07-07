@@ -9,9 +9,18 @@ muon.addTransport(amqp);
 
 setTimeout(function() {
     
-    muon.stream.subscribe("muon://eventstore/streamname", function(event, payload) {
-        
-        console.log(JSON.stringify(payload));
-    });
+
+    muon.resource.query("muon://echo/echo", function(event, payload) {
+            try {
+                if (event.Status == "404") {
+                    logger.error("Service returned 404 when accessing " + args[0]);
+                } else {
+                    console.dir(payload);
+                }
+            } catch (e) {
+                logger.error("Failed to render the response", e);
+            }
+            process.exit(0);
+        });
     
 },3500);

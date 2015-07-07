@@ -24,8 +24,8 @@
       <file leaf-file-name="muon-node-exmaple.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/muon-node-exmaple.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.027855154">
-              <caret line="2" column="60" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.15320334">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,8 +55,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="669" />
-    <option name="y" value="66" />
+    <option name="x" value="1134" />
+    <option name="y" value="44" />
     <option name="width" value="1400" />
     <option name="height" value="1174" />
   </component>
@@ -111,6 +111,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -231,7 +232,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="669" y="66" width="1400" height="1174" extended-state="0" />
+    <frame x="1134" y="44" width="1400" height="1174" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -268,8 +269,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/muon-node-exmaple.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027855154">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.15320334">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
