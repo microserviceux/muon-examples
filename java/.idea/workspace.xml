@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a287a99-3217-4748-b0de-10505faa6321" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MuonQueryExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MuonEchoExample.java" afterPath="$PROJECT_DIR$/src/main/java/MuonEchoExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Readme.md" afterPath="$PROJECT_DIR$/../Readme.md" />
     </list>
     <ignored path="muon-java-exmaples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +45,8 @@
       <file leaf-file-name="MuonEchoExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MuonEchoExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74930364">
-              <caret line="81" column="82" selection-start-line="81" selection-start-column="82" selection-end-line="81" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.6935933">
+              <caret line="77" column="67" selection-start-line="77" selection-start-column="67" selection-end-line="77" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -363,8 +361,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="660" />
-    <option name="y" value="97" />
+    <option name="x" value="397" />
+    <option name="y" value="95" />
     <option name="width" value="1400" />
     <option name="height" value="1174" />
   </component>
@@ -626,7 +624,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="660" y="97" width="1400" height="1174" extended-state="0" />
+    <frame x="397" y="95" width="1400" height="1174" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -688,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MuonEchoExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74930364">
-          <caret line="81" column="82" selection-start-line="81" selection-start-column="82" selection-end-line="81" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.6935933">
+          <caret line="77" column="67" selection-start-line="77" selection-start-column="67" selection-end-line="77" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
