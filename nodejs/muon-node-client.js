@@ -1,18 +1,13 @@
 var muonCore = require("muon-core");
 var sleep = require('sleep');
 
-var amqp = muonCore.amqpTransport("amqp://muon:microservices@msg.cistechfutures.net:5672");
-
-
-
+var amqp = muonCore.amqpTransport("amqp://localhost");
 
 var muonClient = muonCore.muon('node-client', amqp.getDiscovery(), [
-    ["my-tag", "tck-service", "node-service"]
+    "my-tag", "tck-service", "node-service"
 ]);
 
-
 muonClient.addTransport(amqp);
-
 
 setTimeout(function() {
 
